@@ -1,0 +1,20 @@
+Package: keyfeature
+Type: Package
+Title: Key Feature Analysis
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Terry (Taehyeong)", "Kim",
+      email = "tk654@nau.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: Implements Key Feature (KF) analysis (Egbert and Biber, 2023) for identifying 		lexico-grammatical features that distinguish target corpus and reference corpus. Given 		two files of normalized feature rates (rows = texts; columns = features), the package 		computes means, standard deviations, pooled SD, and Cohen's d per feature, and 			visualizes d with a lollipop plot.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: readxl
+LazyData: true
+RoxygenNote: 7.3.3
+Roxygen: list(markdown = TRUE)
+URL: https://github.com/taehyeongterrykim/keyfeature
+BugReports: https://github.com/taehyeongterrykim/keyfeature/issues

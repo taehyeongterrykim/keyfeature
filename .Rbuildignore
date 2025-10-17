@@ -1,0 +1,16 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.Rproj$
+^\.github$
+^^\.*\\.Rproj$$
+^^\\.Rproj\\.user$$
+^^\\.git$$
+^^\\.github$$
+^^README\\.Rmd$$
+^^README\\.html$$
+^^\\.Renviron$$
+^^\\.env$$
+^^\.*\\.tar\\.gz$$
+^^\.*\\.Rcheck$$
+^^\\.DS_Store$$
+^LICENSE\.md$
