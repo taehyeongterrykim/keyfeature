@@ -23,16 +23,16 @@ The package reads two files (`.csv`, `.xlsx`, or `.xls`), each containing normal
 
 ## Installation
 
-To install the development version of **keyfeature**, open R or RStudio and run one of the following commands (they install the package directly from [GitHub](https://github.com/taehyeongterrykim/keyfeature) using [`pak`](https://pak.r-lib.org/) or [`devtools`](https://devtools.r-lib.org/)):
+To install the development version of **keyfeature**, open R or RStudio and run one of the following commands (they install the package directly from [GitHub](https://github.com/taehyeongterrykim/keyfeature) using [`devtools`](https://devtools.r-lib.org/) or [`pak`](https://pak.r-lib.org/)):
 
 ```r
-# Using pak
-install.packages("pak")
-pak::pak("taehyeongterrykim/keyfeature")
-
-# Or using devtools
+# Using devtools
 install.packages("devtools")
 devtools::install_github("taehyeongterrykim/keyfeature")
+
+# Or using pak
+install.packages("pak")
+pak::pak("taehyeongterrykim/keyfeature")
 ```
 
 ## Example
