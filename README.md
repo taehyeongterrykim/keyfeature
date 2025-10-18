@@ -42,7 +42,8 @@ devtools::install_github("taehyeongterrykim/keyfeature")
 
 library(keyfeature)
 
-# Example 1: Automatically include all overlapping (numeric) features in the files (if files are not in the working directory, use full file paths)
+# Example 1: Automatically include all overlapping (numeric) features in the files
+# (If files are not in the working directory, use full file paths)
 keyfeature("target.xlsx", "reference.xlsx")
 
 # Example 2: Specify features explicitly
